@@ -1,4 +1,3 @@
-from typing import List, Dict, Optional
 
 # Nuestra "base de datos" de libros. Será una lista donde cada libro es un diccionario.
 biblioteca: List[Dict[str, any]] = []
