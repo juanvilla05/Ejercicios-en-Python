@@ -158,7 +158,7 @@ while True:
     print("6. Salir")
 
     opcion = input("Ingresa el número de la opción deseada: ")
-def main():
+
     if opcion == '1':
         agregar_libro()
     elif opcion == '2':
@@ -174,5 +174,3 @@ def main():
         break # Salimos del bucle principal y el programa termina.
     else:
         print("Opción inválida. Por favor, intenta de nuevo.")
-
-main()
